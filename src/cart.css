@@ -1,0 +1,19 @@
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    background-color: rgb(219, 128, 128);
+    /* width: 340px; */
+    height: auto;
+}
+
+.products{
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: auto auto auto auto;
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+}
